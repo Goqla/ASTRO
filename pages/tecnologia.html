@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Página Web acerca de varias cosas de astronomía">
+    <meta name="keywords" content="astronomía, planetas, estrellas, galaxias, asteroides, meteoritos, nebulosas, sol, luna, sistema_solar">
+    <meta name="author" content="ASTRO ">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        
+    <!-----------------------------------------FUENTES--------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap" rel="stylesheet">
+
+    <!--------------------------------------------------------------------------------------------->
+
+    <!------------------------------------------ICONOS---------------------------------------------->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!----------------------------------------------------------------------------------------------> 
+
+
+    <link rel="shortcut icon" href="../assets/images/logos/logosimple_sinluz.png" type="image/x-icon">
+
+    <title>ASTRO | Tecnologia</title>
+
+    <link rel="stylesheet" href="../css/tecnologia.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li class="opciones"><a href="../index.html">Inicio</a></li>
+                <li class="opciones"><a href="">Estudio</a></li>
+                <li class="opciones"><a href="cuerpos-celestes.html">Cuerpos Celestes</a></li>
+                <img src="../assets/images/logos/logosimple.png" alt="" id="logo-nav">
+                <li class="opciones"><a href="solar-system.html">Sistema Solar</a></li>
+                <li class="opciones"><a href="tecnologia.html">Tecnología</a></li>
+                <li class="opciones"><a href="#footer">Contacto</a></li>
+                <li class="menu">
+                    <a href="" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
+                        <span class="material-symbols-outlined">
+                            menu
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="offcanvas offcanvas-start menu_canva" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#">Estudio</a></li>
+                <li><a href="cuerpos-celestes.html">Cuerpos Celestes</a></li>
+                <li><a href="solar-system.html">Sistema Solar</a></li>
+                <li><a href="tecnologia.html">Tecnología</a></li>
+                <li><a href="#footer">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="contenedor">
+        <div class="contenedor-principal">
+            <img src="../assets/images/tecnologia/satelite-background.jpg">
+            <h1>Tecnología</h1>
+        </div>
+        <center>
+            <div class="cont-text">
+                <h5>
+                    La tecnología desempeña un papel fundamental en la astronomía, permitiendo a los astrónomos estudiar el universo y obtener información valiosa sobre objetos celestes y eventos cósmicos,
+                    lo que permite a los astrónomos realizar descubrimientos cada vez más profundos sobre el universo. Se han realizado importantes avances en la comprensión de la cosmología, la astrofísica estelar, la formación de galaxias y la detección de exoplanetas, entre otros campos de estudio
+                    gracias a estas herramientas: Los Telescopios, Telescopios espaciales, Radiotelescopios, Telescopios infrarrojos, Detectores CCD, Espectroscopía, Simulaciones por computadora, Telescopios terrestres adaptativos y Grandes proyectos de investigación
+                </h5>
+                <div>
+                    <img src="../assets/images/tecnologia/sat3.jpg">
+                    <img src="../assets/images/tecnologia/satelite.jpg">
+                </div>
+            </div>
+        </center>
+        <div class="cont-satelite">
+            <h1>Satelites</h1>
+            <h5>
+                Los satélites son objetos que orbitan alrededor de un cuerpo celeste, como la Tierra o cualquier otro planeta, luna, asteroide, o incluso el Sol.
+                Son dispositivos creados por el ser humano y lanzados al espacio con diversos fines.
+            </h5>
+            <h3>Funciones de los satélites:</h3>
+            <div id="tex1">
+                <p>
+                    - Observación de la Tierra: Los satélites de observación terrestre, como los de la NASA, la ESA y otros organismos, <br> proporcionan imágenes y datos para el monitoreo del clima, la cartografía, la gestión de desastres naturales, la agricultura y <br> la detección de cambios ambientales.
+                </p>
+                <p>
+                    - Comunicaciones: Los satélites de comunicaciones, como los satélites geoestacionarios, se utilizan para transmitir señales de radio y televisión, <br> proporcionar conectividad a Internet y permitir la comunicación global a través de telefonía y datos.
+                </p>
+                <p>
+                    - Navegación: Los sistemas de navegación por satélite, como el Sistema de Posicionamiento Global (GPS), <br> se basan en constelaciones de satélites para proporcionar información precisa de ubicación y tiempo.
+                </p>
+                <p>
+                    - Ciencia y observación espacial: Los satélites científicos y observatorios espaciales, como el Telescopio Espacial Hubble, estudian el cosmos y realizan investigaciones astronómicas.
+                </p>
+                <p>
+                    - Exploración espacial: Las misiones espaciales utilizan satélites para explorar otros planetas, lunas y asteroides, como las misiones de la NASA a Marte o las misiones de la Agencia Espacial Europea (ESA) a Júpiter y sus lunas.
+                </p>
+            </div>
+            <h3>Tipos de órbitas:</h3>
+            <div id="text2">
+                <p>
+                    - Órbita baja (LEO): Satélites en órbita baja se encuentran a altitudes relativamente bajas, generalmente a unos pocos cientos de kilómetros sobre la Tierra. <br> Ejemplos incluyen satélites de observación terrestre y la Estación Espacial Internacional (EEI).
+                </p>
+                <p>
+                    - Órbita media (MEO): Satélites en órbita media se encuentran en altitudes intermedias, como los satélites de navegación en órbita MEO, que están alrededor de 20,000 kilómetros de la Tierra.
+                </p>
+                <p>
+                    - Órbita geoestacionaria (GEO): Los satélites en órbita GEO están ubicados a unos 36,000 kilómetros sobre el ecuador de la Tierra y siguen la rotación de la Tierra. <br>Esto les permite mantener una posición fija sobre una región específica, ideal para satélites de comunicaciones.
+                </p>
+            </div>
+            <h3>Lanzamiento y vida útil</h3>
+            <p>
+                Los satélites son lanzados al espacio por cohetes y tienen una vida útil limitada debido a factores como la degradación de sus sistemas y el agotamiento de combustible. <br> Algunos satélites pueden durar varios años, mientras que otros tienen una vida más corta.
+            </p>
+            <h3>Basura espacial</h3>
+            <p>
+                La proliferación de satélites y cohetes ha dado lugar a un aumento de la basura espacial, que son objetos en desuso en órbita. Esto representa un desafío para la seguridad en el espacio y la sostenibilidad a largo plazo.
+            </p>
+            <h3>Colaboración internacional</h3>
+            <p>
+                Muchas naciones y organizaciones cooperan en el desarrollo y lanzamiento de satélites. La colaboración internacional es común en la exploración espacial y la investigación científica.
+            </p>
+            <h5>
+                Los satélites desempeñan un papel crucial en la vida cotidiana, la ciencia y la exploración espacial, y su importancia continúa creciendo a medida que se desarrollan nuevas tecnologías y se expanden las aplicaciones en la órbita terrestre.
+            </h5>
+        </div>
+        <center>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../assets/images/tecnologia/satelite3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/images/tecnologia/satelite2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/images/tecnologia/satelite.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </center>
+        <div class="cont-text__2">
+            <h1>Telescopios</h1>
+            <h5>
+                Los telescopios son instrumentos ópticos que se utilizan para observar objetos distantes en el espacio, como estrellas, planetas, galaxias y otros cuerpos celestes. Existen diversos tipos de telescopios diseñados para diferentes propósitos y con diversas características.
+                Estos son algunas imagenes tomadas por los telescopios:
+            </h5>
+            <div>
+                <img src="../assets/images/tecnologia/tel1.jpg">
+                <img src="../assets/images/tecnologia/tel2.jpg">
+            </div>
+        </div>
+        <div class="cont-telescopio">
+            <h2>
+                Existen varios tipos de telescopios:
+            </h2>
+            <h3>Telescopio refractor:</h3>
+            <div id="tex1">
+                <p>
+                    - También conocido como telescopio de lentes, utiliza lentes para enfocar la luz y formar una imagen.
+                </p>
+                <p>
+                    - Su diseño más simple consta de dos lentes: una lente objetivo y una lente ocular.
+                </p>
+                <p>
+                    - Ofrece imágenes de alta calidad, pero puede ser costoso y pesado para telescopios grandes.
+                </p>
+            </div>
+            <h3>Telescopio reflector:</h3>
+            <div id="text2">
+                <p>
+                    - Utiliza espejos en lugar de lentes para recolectar y enfocar la luz.
+                </p>
+                <p>
+                    - El diseño más común es el telescopio newtoniano, que consta de un espejo primario curvado y un espejo secundario plano.
+                </p>
+                <p>
+                    - Los telescopios reflectores son populares por su costo efectivo y su capacidad para recolectar más luz.
+                </p>
+            </div>
+            <h3>Telescopio catadióptrico:</h3>
+            <div id="text3">
+                <p>
+                    - Combina lentes y espejos para corregir algunas de las aberraciones ópticas presentes en otros diseños.
+                </p>
+                <p>
+                    - Ejemplos de telescopios catadióptricos incluyen el telescopio Schmidt-Cassegrain y el Maksutov-Cassegrain.
+                </p>
+            </div>
+            <h3>Telescopio radioastronómico:</h3>
+            <div id="text4">
+                <p>
+                    - Detecta ondas de radio en lugar de luz visible.
+                </p>
+                <p>
+                    - Utilizado para estudiar fenómenos astrofísicos, como radiogalaxias y pulsares.
+                </p>
+            </div>
+            <h3>Telescopio submilimétrico:</h3>
+            <div id="text5">
+                <p>
+                    - Observa en longitudes de onda más largas que las del infrarrojo, en el rango submilimétrico.
+                </p>
+                <p>
+                    - Útiles para estudiar objetos fríos, como nubes de polvo interestelar y moléculas en el espacio.
+                </p>
+            </div>
+            <h5>
+                Los telescopios han sido fundamentales para la astronomía y la exploración del universo, permitiendo a los científicos estudiar objetos celestes, entender la física del cosmos y realizar descubrimientos importantes sobre la naturaleza del espacio y el tiempo.
+                Pero hay otros telescopios mas importantes para la astronomia:
+            </h5>
+            <h3>Telescopios Espaciales:</h3>
+            <h5>Los telescopios espaciales son instrumentos diseñados para observar el universo desde el espacio, fuera de la atmósfera de la Tierra. Al estar ubicados en el espacio, estos telescopios evitan las distorsiones y las limitaciones causadas por la atmósfera, lo que les permite obtener imágenes y datos más claros y precisos de los objetos celestes.</h5>
+            <div id="espaciales">
+                <h4>Telescopio Espacial Hubble (HST):</h4>
+                <p>
+                    - Lanzamiento: El Hubble fue lanzado el 24 de abril de 1990.
+                </p>
+                <p>
+                    - Misión: Es uno de los telescopios espaciales más famosos y ha revolucionado nuestra comprensión del universo. Ha proporcionado imágenes de alta resolución de galaxias, nebulosas, estrellas y otros objetos celestes, así como datos que han contribuido significativamente a la astronomía.
+                </p>
+                <p>
+                    - Órbita: El Hubble orbita la Tierra a una altitud de aproximadamente 560 kilómetros.
+                </p>
+                <h4>Telescopio Espacial Spitzer (SST):</h4>
+                <p>
+                    - Lanzamiento: El Spitzer fue lanzado el 25 de agosto de 2003.
+                </p>
+                <p>
+                    - Misión: Este telescopio espacial está especializado en observar el universo en el infrarrojo lejano. Ha proporcionado información valiosa sobre la formación de estrellas, la evolución de las galaxias y la composición de objetos en el espacio.
+                </p>
+                <p>
+                    - Órbita: El Spitzer fue colocado en una órbita heliocéntrica alrededor del Sol.
+                </p>
+                <h4>Telescopio Espacial Chandra (CXO):</h4>
+                <p>
+                    - Lanzamiento: El Chandra fue lanzado el 23 de julio de 1999.
+                </p>
+                <p>
+                    - Misión: Se centra en la observación de rayos X en el espacio, permitiendo el estudio de fenómenos extremadamente energéticos como agujeros negros, estrellas de neutrones y cúmulos de galaxias.
+                </p>
+                <p>
+                    - Órbita: El Chandra se encuentra en una órbita altamente elíptica alrededor de la Tierra.
+                </p>
+                <h4>Telescopio Espacial James Webb (JWST):</h4>
+                <p>
+                    - Lanzamiento (previsto): A partir de mi conocimiento hasta enero de 2022, el JWST se planea lanzar en 2021, aunque las fechas de lanzamiento pueden cambiar. Consulta fuentes actualizadas para conocer la fecha más reciente.
+                </p>
+                <p>
+                    - Misión: El JWST es el sucesor del Hubble y se especializa en la observación en el infrarrojo. Está diseñado para estudiar la formación de estrellas, la evolución de galaxias, la formación de sistemas planetarios y la atmósfera de exoplanetas.
+                </p>
+                <p>
+                    - Órbita: El JWST será colocado en una órbita alrededor del segundo punto de Lagrange (L2) en el sistema Sol-Tierra, lo que lo mantendrá alejado de la influencia de la Tierra.
+                </p>
+            </div>
+            <h5>Estos instrumentos permiten a los astrónomos observar el cosmos en longitudes de onda que serían inaccesibles desde la Tierra y han realizado descubrimientos fundamentales en la astronomía y la astrofísica.</h5>
+        </div>
+    </div>
+    <footer>
+        <div class="contenedor-footer">
+            <img src="../assets/images/logos/logocompleto.png" alt="">
+            
+            <div id="contenedor-footer__caja1">
+                <div>
+                    <h2>ASTRO</h2>
+                    <p>Página Web aceca de la astronomía<br>y demas cosas vinculadas. </p>
+                </div>
+                <div>
+                    <h2>EMAILS</h2>
+                    <a target="_blank" href="mailto:esteche.gonzaloet36@gmail.com">esteche.gonzaloet36@gmail.com</a>
+                    <a target="_blank" href="mailto:martinez.joseet36@gmail.com">martinez.joseet36@gmail.com</a>
+                    <a target="_blank" href="mailto:soria.tobiaset36@gmail.com">soria.tobiaset36@gmail.com</a>
+                    <a target="_blank" href="mailto:talarico.francoet36@gmail.com">talarico.francoet36@gmail.com</a>
+                </div>
+                <div>
+                    <h2>INSTAGRAMS</h2>
+                    <a target="_blank" href="https://instagram.com/goqla.arg">goqla.arg</a>
+                    <a target="_blank" href="https://instagram.com/j.martineezz_">j.martineezz_</a>
+                    <a target="_blank" href="https://instagram.com/tobiassoria_">tobiassoria_</a>
+                    <a target="_blank" href="https://instagram.com/talaricofranco_">talaricofranco_</a>
+                </div>
+                <div>
+                    <h2>HERRAMIENTAS</h2>
+                    <a target="_blank" href="https://es.wikipedia.org/wiki/HTML">HTML 5</a>
+                    <a target="_blank" href="https://es.wikipedia.org/wiki/CSS">CSS 3</a>
+                    <a target="_blank" href="https://sass-lang.com/">SASS</a>
+                    <a target="_blank" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">BOOTSTRAP 5</a>
+                </div>
+            </div>
+            <div id="contenedor-footer__copyright">
+                <p>Copyright 2023</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

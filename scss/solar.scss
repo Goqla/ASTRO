@@ -1,0 +1,349 @@
+@import 'elementos';
+@import 'colors';
+
+
+header{
+    @include navigation;
+}
+
+.menu_canva{
+    @include menu-canva;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-principal{
+    @include contenedor-principal;
+    img{
+        filter: brightness(50%);
+    }
+}
+
+.contenedor-sistema{
+    background-color: #101010;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 100%;
+        width: 130%;
+        overflow: hidden;
+    }
+}
+
+.contenedor-sistema__planetas{
+    font-size: 9px;
+    width: 37.5em;
+    height: 50em;
+    position: absolute;
+}
+
+.sol {
+    img{
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+    }
+    position: absolute;
+    top: 19.5em;
+    left: 14.5em;
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    box-shadow: 0 0 3em 1.5em rgb(255, 115, 0);
+}
+
+
+.mercurio, .venus, .tierra, .luna, .marte, .jupiter, .saturno, .urano, .neptuno, .aros {
+    position: absolute;
+    border-style: solid;
+    border-color: #757575;
+    border-width: 0.1em 0.1em 0.1em 0.1em;
+    border-radius: 50%;
+    img{
+        position: absolute;
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.mercurio {
+    top: 15.5em;
+    left: 10.5em;
+    width: 15em;
+    height: 15em;
+    animation: orbita 30s linear infinite;
+    resize: both;
+    img{
+        top: 1em;
+        right: 1em;
+        width: 2em;
+        height: 2em;
+        animation: orbita 15s linear infinite; 
+    }
+}
+
+.venus {
+    top: 10.5em;
+    left: 5.5em;
+    width: 25em;
+    height: 25em;
+    animation: orbita 60s linear infinite;
+    resize: both;
+    img{
+        top: 2.5em;
+        right: 2.5em;
+        width: 2.4em;
+        height: 2.4em;
+        animation: orbita 15s linear infinite; 
+    }
+}
+
+.tierra {
+    top: 3em;
+    left: -2em;
+    width: 40em;
+    height: 40em;
+    animation: orbita 90s linear infinite; 
+    resize: both;
+    img{
+        top: 4em;
+        right: 4em;
+        width: 3em;
+        height: 3em;
+        animation: orbita 15s linear infinite; 
+    }
+}
+
+.luna {
+    top: 2em;
+    right: 2em;
+    width: 7em;
+    height: 7em;
+    animation: orbita 20s linear infinite; 
+    img{
+        top: 0.1em;
+        right: 0.7em;
+        width: 1.2em;
+        height: 1.2em;
+        background-color: silver;
+        animation: orbita 15s linear infinite;
+    }
+}
+
+.marte {
+    top: -3em;
+    left: -8em;
+    width: 52.5em;
+    height: 52.5em;
+    animation: orbita 120s linear infinite;
+    resize: both;
+    img{
+        top: 6em;
+        right: 6em;
+        width: 2.5em;
+        height: 2.5em;
+        animation: orbita 15s linear infinite; 
+    }
+}
+
+.jupiter {
+    top: -9em;
+    left: -14em;
+    width: 65em;
+    height: 65em;
+    animation: orbita 150s linear infinite;
+    resize: both;
+    img{
+        top: 6.5em;
+        right: 6.5em;
+        width: 5em;
+        height: 5em;
+        animation: orbita 15s linear infinite; 
+    }
+}
+
+.saturno {
+    top: -16em;
+    left: -22em;
+    width: 80em;
+    height: 80em;
+    animation: orbita 180s linear infinite;
+    resize: both;
+    img{
+        top: 10em;
+        right: 10em;
+        width: 4em;
+        height: 4em;
+        animation: orbita 15s linear infinite; 
+    }
+    div{
+        top: 9em;
+        right: 9em;
+        width: 6em;
+        height: 6em;
+        border-width: 0.5em 0.5em 0.5em 0.5em;
+        border-color: silver;
+    }
+}
+
+.urano {
+    top: -22em;
+    left: -28em;
+    width: 92em;
+    height: 92em;
+    animation: orbita 210s linear infinite;
+    resize: both;
+    img{
+        top: 11.5em;
+        right: 11.5em;
+        width: 4em;
+        height: 4em;
+        animation: orbita 15s linear infinite; 
+    }
+}
+
+.neptuno {
+    top: -30.5em;
+    left: -36.5em;
+    width: 110em;
+    height: 110em;
+    animation: orbita 250s linear infinite;
+    resize: both;
+    img{
+        top: 14em;
+        right: 14em;
+        width: 4em;
+        height: 4em;
+        animation: orbita 15s linear infinite;
+    }
+}
+
+
+@keyframes orbita {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/*Info planetas*/
+
+.carousel-item {
+    position: relative;
+    background-color: #151515;
+}
+  
+.derecha, .izquierda {
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    width: 40%;
+    transform: translateY(-50%);
+    h2{
+        color: #fff;
+        font-size: 10vh;
+    }
+    p{
+        color: #fff;
+        font-size: 4vh;
+    }
+}
+
+.contenedor-texto {
+  position: absolute;
+}
+  
+.derecha {
+    right: 15%;
+}
+  
+.izquierda {
+    left: 15%;
+}
+
+footer{
+    @include footer;
+}
+
+@media screen and (max-width: 768px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .contenedor-sistema__planetas{
+        font-size: 5px;
+    }
+
+    .contenedor-sistema{
+        height: 110vh;
+    }
+
+    .carousel-item {
+        width: 768px;
+    }
+      
+    .derecha, .izquierda {
+        top: 15%;
+        h2{
+            font-size: 9vh;
+        }
+        p{
+            font-size: 3vh;
+        }
+    }
+
+    #luna-txt{
+        p{
+            font-size: 2.5vh;
+        }
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .contenedor-sistema__planetas{
+        font-size: 2.1px;
+    }
+
+    .contenedor-sistema{
+        height: 60vh;
+    }
+
+    .carousel-item {
+        width: 320px;
+    }
+      
+    .derecha, .izquierda {
+        top: 15%;
+        h2{
+            font-size: 2.2vh;
+        }
+        p{
+            font-size: 1.1vh;
+        }
+    }
+
+    #luna-txt{
+        p{
+            font-size: 0.8vh;
+        }
+    }
+
+}

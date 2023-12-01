@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Página Web acerca de varias cosas de astronomía">
+    <meta name="keywords" content="astronomía, planetas, estrellas, galaxias, asteroides, meteoritos, nebulosas, sol, luna, sistema_solar">
+    <meta name="author" content="ASTRO | Astronomía">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-----------------------------------------FUENTES--------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap" rel="stylesheet">
+
+    <!---------------------------------------------------------------------------------------------> 
+
+    <!------------------------------------------ICONOS---------------------------------------------->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!----------------------------------------------------------------------------------------------> 
+
+
+    <link rel="shortcut icon" href="assets/images/logos/logosimple_sinluz.png" type="image/x-icon">
+    
+    <title>ASTRO | Astronomía</title>
+    <!--HOLA-->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li class="opciones"><a href="index.html">Inicio</a></li>
+                <li class="opciones"><a href="pages/estudio.html">Estudio</a></li>
+                <li class="opciones"><a href="pages/cuerpos-celestes.html">Cuerpos Celestes</a></li>
+                <img src="assets/images/logos/logosimple.png" alt="" id="logo-nav">
+                <li class="opciones"><a href="pages/solar-system.html">Sistema Solar</a></li>
+                <li class="opciones"><a href="pages/tecnologia.html">Tecnología</a></li>
+                <li class="opciones"><a href="#footer">Contacto</a></li>
+                <li class="menu">
+                    <a href="" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
+                        <span class="material-symbols-outlined">
+                            menu
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="offcanvas offcanvas-start menu_canva" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Estudio</a></li>
+                <li><a href="pages/cuerpos-celestes.html">Cuerpos Celestes</a></li>
+                <li><a href="pages/solar-system.html">Sistema Solar</a></li>
+                <li><a href="pages/tecnologia.html">Tecnología</a></li>
+                <li><a href="#footer">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+
+    
+
+    <div class="contenedor-principal">
+        <h1>ASTRONOMÍA</h1>
+        <img src="assets/images/inicio/astronomia-background.jpg" alt="">
+    </div>
+
+    <div class="contenedor">
+        <div class="contenedor__caja1">
+            <div id="contenedor__caja1_card1">
+                <h1>¿Qué es la Atronomía?</h1>
+                <p>La astronomía es una ciencia que se dedica al estudio de los astros y fenómenos celestes que se encuentran en el universo. A través de la observación, análisis y teorización, los astrónomos buscan comprender la naturaleza, el origen y la evolución de planetas, estrellas, galaxias y otros cuerpos celestes. Esta disciplina milenaria ha sido fundamental para desvelar los misterios del cosmos y ha contribuido a nuestra comprensión del lugar que ocupamos en el vasto universo. La astronomía no solo nos brinda conocimiento científico, sino que también despierta nuestra curiosidad innata y nos conecta con la asombrosa inmensidad del espacio exterior.</p>
+                <img src="assets/images/inicio/luna.jpg" alt="">
+            </div>
+            <div id="contenedor__caja1_card2">
+                <h1>¿Qué abarca?</h1>
+                <p>La astronomía abarca una amplia gama de subdisciplinas, desde la astrofísica que explora las propiedades físicas de los objetos celestes, hasta la cosmología que se enfoca en el origen y evolución del universo en su conjunto. Además de su impacto en la ciencia, la astronomía también tiene un papel crucial en la exploración espacial y la búsqueda de vida en otros planetas. La constante expansión de nuestro conocimiento astronómico sigue inspirando a generaciones a explorar los misterios del espacio y a desentrañar los secretos de nuestro cosmos.</p>
+                <img src="assets/images/inicio/negro.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="contenedor__caja2">
+            <img src="assets/images/inicio/astronauta.png" alt="">
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title">Acontencimientos importantes</h6>
+                                    <div id="content">
+                                        <ul class="timeline">
+                                            <li class="event" data-date="1543">
+                                                <h3>Revolución Copernicana</h3>
+                                                <p>Nicolás Copérnico publica "De revolutionibus orbium coelestium" (Sobre las revoluciones de las esferas celestes), proponiendo el modelo heliocéntrico, donde la Tierra y otros planetas giran alrededor del Sol.</p>
+                                            </li>
+                                            <li class="event" data-date="1609">
+                                                <h3>Revolución Telescópica de Galileo</h3>
+                                                <p>Galileo Galilei utiliza por primera vez un telescopio para observar el cielo. Sus observaciones incluyen las lunas de Júpiter, las fases de Venus y las manchas solares, lo que revoluciona la comprensión del sistema solar.</p>
+                                            </li>
+                                            <li class="event" data-date="1915">
+                                                <h3>Revolución de Einstein en la Gravedad</h3>
+                                                <p>Albert Einstein presenta la Teoría de la Relatividad General, que transforma la comprensión de la gravedad al describirla como la curvatura del espacio-tiempo. Esta teoría ha tenido un profundo impacto en la cosmología y la comprensión de la estructura del universo.</p>
+                                            </li>
+                                            <li class="event" data-date="1990">
+                                                <h3>El Telescopio Espacial Hubble y la Revolución Observacional</h3>
+                                                <p>Se lanza el Telescopio Espacial Hubble, proporcionando imágenes extraordinarias y datos científicos valiosos que han llevado a importantes descubrimientos sobre la expansión del universo, la existencia de exoplanetas y la naturaleza de las galaxias.</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor__caja3">
+            <div>
+                <h1>Más acerca de la Astronomía</h1>
+                <p>En el vasto campo de la astronomía, la abundancia de datos a menudo conlleva la presencia de información que puede considerarse innecesaria en determinados contextos investigativos. En muchas ocasiones, la precisión extrema de las posiciones de estrellas menos relevantes puede resultar superflua, especialmente cuando el enfoque de la investigación se dirige hacia objetos celestes más destacados. Del mismo modo, datos históricos sobre observaciones astronómicas pasadas pueden carecer de utilidad en investigaciones contemporáneas que se centran en fenómenos más recientes. La información detallada sobre cuerpos celestes poco estudiados puede volverse prescindible en estudios generales, y detalles exhaustivos sobre condiciones atmosféricas pueden considerarse innecesarios a menos que la investigación se centre específicamente en tales aspectos. La discriminación cuidadosa entre datos cruciales y superfluos es esencial para optimizar los recursos y concentrar la atención en aspectos astronómicos relevantes para los objetivos de estudio.</p>
+            </div>
+        </div>
+    </div> 
+
+    <footer id="footer">
+        <div class="contenedor-footer">
+            <img src="assets/images/logos/logocompleto.png" alt="">
+            
+            <div id="contenedor-footer__caja1">
+                <div>
+                    <h2>ASTRO</h2>
+                    <p>Página Web aceca de la astronomía<br>y demas cosas vinculadas. </p>
+                </div>
+                <div>
+                    <h2>EMAILS</h2>
+                    <a target="_blank" href="mailto:esteche.gonzaloet36@gmail.com">esteche.gonzaloet36@gmail.com</a>
+                    <a target="_blank" href="mailto:martinez.joseet36@gmail.com">martinez.joseet36@gmail.com</a>
+                    <a target="_blank" href="mailto:soria.tobiaset36@gmail.com">soria.tobiaset36@gmail.com</a>
+                    <a target="_blank" href="mailto:talarico.francoet36@gmail.com">talarico.francoet36@gmail.com</a>
+                </div>
+                <div>
+                    <h2>INSTAGRAMS</h2>
+                    <a target="_blank" href="https://instagram.com/goqla.arg">goqla.arg</a>
+                    <a target="_blank" href="https://instagram.com/j.martineezz_">j.martineezz_</a>
+                    <a target="_blank" href="https://instagram.com/tobiassoria_">tobiassoria_</a>
+                    <a target="_blank" href="https://instagram.com/talaricofranco_">talaricofranco_</a>
+                </div>
+                <div>
+                    <h2>HERRAMIENTAS</h2>
+                    <a target="_blank" href="https://es.wikipedia.org/wiki/HTML">HTML 5</a>
+                    <a target="_blank" href="https://es.wikipedia.org/wiki/CSS">CSS 3</a>
+                    <a target="_blank" href="https://sass-lang.com/">SASS</a>
+                    <a target="_blank" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">BOOTSTRAP 5</a>
+                </div>
+            </div>
+            <div id="contenedor-footer__copyright">
+                <p>Copyright 2023</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html> 

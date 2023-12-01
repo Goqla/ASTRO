@@ -1,0 +1,45 @@
+@import 'elementos';
+@import 'colors';
+
+
+header{
+    @include navigation;
+}
+
+body{
+    background-color: #050505;
+}
+
+.menu_canva{
+    @include menu-canva;
+}
+
+
+.contenedor-principal{
+    @include contenedor-principal;
+}
+
+.contenedor{
+    background-color: #101010;
+    div{
+        h1{
+            color: #ffffff;
+            font-size: 24px;
+            margin-left: 20vw;
+            margin-right: 20vw;
+        }
+        p{
+            color: #cccccc;
+            font-size: 18px;
+            margin-left: 20vw;
+            margin-right: 20vw;
+            text-align: justify;
+            @include imagen-scroll-d;
+        }
+    }
+}
+
+
+footer{
+    @include footer;
+}
